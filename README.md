@@ -42,15 +42,6 @@ RAZORPAY_KEY_SECRET=...
 
 Never use live keys with this prototype. The backend rejects a key that does not start with `rzp_test_`.
 
-## GitHub submission checklist
-
-Use the repository name `vennela-ai-commerce`. Keep the README, demo flow, policy bounds, failure recovery, and screenshots together in the root of the repository. Before submitting, run `pnpm check`, `pnpm test`, and `pnpm build`, then export the project from the project management panel to the GitHub account and repository name you want to submit.
-
-Suggested repository description:
-
-> Vennela — a merchant-growth agent that turns AI-buyer intent into explainable, merchant-approved Razorpay test-mode payment proposals.
-
-Suggested submission walkthrough: begin on Growth overview, open the priority opportunity, run one AI-buyer request, show the exact basket and approval gate, create a test-mode proposal, simulate a safe timeout, retry it, and finish on the Decision trail.
 
 ## Product principles
 
